@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+
+	<title>la estética de la</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+
+	</script>
+
+</head>
+<body>
+<!-- header -->
+<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="index.html">la felicidad</a>
+		</div>
+
+		<div class="head-nav">
+			<span class="menu"> </span>
+			<ul class="cl-effect-1">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="blog.html">Artículo</a></li>
+				<li><a href="contact.html">Contactos</a></li>
+				<li><a href="policy.html">Política de privacidad</a></li>
+				<li><a href="terms.html">Términos y condiciones</a></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+		<!-- script-for-nav -->
+		<script>
+			$( "span.menu" ).click(function() {
+				$( ".head-nav ul" ).slideToggle(300, function() {
+					// Animation complete.
+				});
+			});
+		</script>
+		<!-- script-for-nav -->
+
+
+
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- header -->
+<!-- Blog -->
+<div class="container">
+	<div class="blog">
+
+		<div class="blog-content">
+			<div class="blog-content-left">
+				<div class="blog-articals">
+
+					<div class="blog-artical">
+
+						<div class="blog-artical-info">
+							<div class="blog-artical-info-img">
+								<a href="-%&link&%-"><img src="./assets/images/conscious-design-xhziihacngs-unsplash.jpg" title="post-name"></a>
+							</div>
+							<div class="blog-artical-info-head">
+								<h2><a href="-%&link&%-">Productos para la buena memoria y la memoria de</a></h2>
+
+
+							</div>
+							<div class="blog-artical-info-text">
+								<p> <strong>Productos para la buena memoria y la memoria de</strong> la pérdida de Memoria y la demencia son los principales enemigos de cada persona. Son también las principales víctimas de ciertas pruebas que generalmente se dan antes de una importante visita al médico o psicólogo.La prueba en sí no es siempre gratis, pero depende de los exámenes y las necesidades de la persona. Hay ciertos productos que son útiles para la memoria y la memoria.Los frutos secos.Uno de los mejores productos naturales que pueden ser utilizados como un sustituto de una evaluación cognitiva es una locura. Son ricos en proteínas, fibra, antioxidantes y grasas saludables. El uso de los frutos secos es recomendado para todos los días.Los frutos secos son un complemento saludable para nuestra dieta.Las almendras.El primer lugar entre los frutos secos que podemos añadir a nuestro menú son las almendras. Ellos son altos en proteínas, grasas saludables y antioxidantes naturales. El uso de las almendras se recomienda para todos los días.Las almendras son un maravilloso producto que contiene una gran cantidad de fibra, vitaminas y minerales. Es muy importante comer correctamente. Su preparación es muy simple: los frutos secos son pulverizadas con un mortero y mano de mortero, y la pulpa se empapan en agua. A continuación, se muelen y se embalan en un frasco pequeño.También vamos a añadir a nuestro menú:Esmeralda la ceniza de las hojas.Estas hermosas hojas son útiles para triturar y añadir a las ensaladas. Usted puede pulverizar ellos tan bien como sea posible con la ayuda de un mortero y mano de mortero.Esmeralda ceniza hojas son de un maravilloso producto que contiene vitamina C, que es un antioxidante muy eficaz. La combinación de estos tres factores conduce a la mejora de la memoria y la concentración. Este artículo es sólo para fines informativos. Por favor, consulte a su médico antes de utilizar esta información.Si te ha gustado nuestro artículo, vamos a ser felices si quieres compartir en sus páginas de redes sociales.</p>
+							</div>
+
+						</div>
+
+						<div class="clearfix"> </div>
+					</div>
+
+				</div>
+				<!--//End-blog-pagenate-->
+			</div>
+
+			<div class="clearfix"> </div>
+
+		</div>
+	</div>
+	<!-- /Blog -->
+
+	<div class="footer">
+
+
+		<div class="clearfix"> </div>
+		<div class="copyright">
+			<p> Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+				All rights reserved</p>
+		</div>
+	</div>
+</div>
+<div class='cookie-banner'>
+	<p>
+		El sitio web utiliza "cookies". Permiten identificarlo y recibir su información de la experiencia del usuario.Continuando con la navegación de la web, estoy de acuerdo con el uso de las cookies, el propietario del sitio de conformidad con  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Política de cookies</a>
+	</p>
+	<button class='close-cookie'>&times;</button>
+</div>
+<script>
+	window.onload = function () {
+		$('.close-cookie').click(function () {
+			$('.cookie-banner').fadeOut();
+		})
+	}
+</script>
+<script>
+	let elems = document.querySelectorAll('.server-name');
+	elems.forEach((elem) => {
+		elem.innerHTML = window.location.hostname
+	})
+</script>
+</body>
+</html>

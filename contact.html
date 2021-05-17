@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+
+	<title>el atractivo de</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+
+	</script>
+
+</head>
+<body>
+<!-- header -->
+<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="index.html">obvoroghitelynosty</a>
+		</div>
+
+		<div class="head-nav">
+			<span class="menu"> </span>
+			<ul class="cl-effect-1">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="blog.html">Artículo</a></li>
+				<li class="active"><a href="contact.html">Contactos</a></li>
+				<li><a href="policy.html">Política de privacidad</a></li>
+				<li><a href="terms.html">Términos y condiciones</a></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+		<!-- script-for-nav -->
+		<script>
+			$( "span.menu" ).click(function() {
+				$( ".head-nav ul" ).slideToggle(300, function() {
+					// Animation complete.
+				});
+			});
+		</script>
+		<!-- script-for-nav -->
+
+
+
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- header -->
+<div class="container">
+	<div class="contact">
+ <div class="main-head-section">
+		 		
+		 			<h3>Contactos</h3>
+		 		
+
+		 </div>
+		
+		<div class="contact_top">
+			 		
+			 			<div class="col-md-8 contact_left">
+
+							  <form action="thanks.html">
+								 <div class="form_details">
+					                 <input type="text" class="text" value="El nombre de" >
+									 <input type="text" class="text" value="Email" >
+									 <input type="text" class="text" value="El número de teléfono" >
+									 <textarea value="Message"></textarea>
+									 <div class="clearfix"> </div>
+									 <div class="sub-button">
+										 <input type="checkbox" name="terms" value="check" required=""/>
+										 <a href="policy.html" target="_blank">
+											 He leído y estoy de acuerdo con los términos del acuerdo de usuario
+										 </a>
+										 <button type="submit">"Enviar" </button >
+									 </div>
+						          </div>
+						       </form>
+					        </div>
+					        <div class="col-md-4 company-right">
+					        	<div class="company_ad">
+
+			      						<address>
+											 <p>mochoa@yahoo.com</p>
+											 <p>+7720358833535</p>
+									   		<p>Rúa Carlos, 25, 02º B, 38666, L' Nieto</p>
+										</address>
+							   		</div>
+							   		
+							</div>	
+							<div class="clearfix"> </div>
+						
+					</div>
+</div>
+	<div class="footer">
+
+
+		<div class="clearfix"> </div>
+		<div class="copyright">
+			<p> Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+				All rights reserved</p>
+		</div>
+	</div>
+</div>
+<div class='cookie-banner'>
+	<p>
+		El sitio web utiliza "cookies". Permiten identificarlo y recibir su información de la experiencia del usuario.Continuando con la navegación de la web, estoy de acuerdo con el uso de las cookies, el propietario del sitio de conformidad con  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Política de cookies</a>
+	</p>
+	<button class='close-cookie'>&times;</button>
+</div>
+<script>
+	window.onload = function () {
+		$('.close-cookie').click(function () {
+			$('.cookie-banner').fadeOut();
+		})
+	}
+</script>
+<script>
+	let elems = document.querySelectorAll('.server-name');
+	elems.forEach((elem) => {
+		elem.innerHTML = window.location.hostname
+	})
+</script>
+</body>
+</html>
